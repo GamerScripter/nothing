@@ -66,3 +66,4 @@ local Old; Old = hookmetamethod(game, "__namecall", function(Self, ...)
    end
  
    return Old(Self, unpack(Args))
+end)
